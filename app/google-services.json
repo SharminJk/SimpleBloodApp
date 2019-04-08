@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "981118318781",
+    "firebase_url": "https://bloodinventory-lazyfahim.firebaseio.com",
+    "project_id": "bloodinventory-lazyfahim",
+    "storage_bucket": "bloodinventory-lazyfahim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981118318781:android:4bd8a0690ca09e2b",
+        "android_client_info": {
+          "package_name": "com.example.bloodinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981118318781-5nc2mpngba9la32mfrla4b2cnn48cbfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloodinventory",
+            "certificate_hash": "5e376f17ee402d7156d1d4536012f5f2ce307e0a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSLjSWGbkoFRlnoCTpgv3opMlYS4zEJ2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981118318781-ipevipns8r01mngv7ca1v429jor19aje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

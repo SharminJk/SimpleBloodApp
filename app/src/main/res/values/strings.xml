@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BloodInventory</string>
+    <string name="title_activity_search_blood">SearchBlood</string>
+</resources>

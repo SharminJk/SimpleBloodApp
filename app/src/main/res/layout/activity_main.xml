@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter donor's Name"
+            />
+
+        <EditText
+            android:id="@+id/Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter Donor's Age"/>
+        <RadioGroup
+            android:id="@+id/radioBlood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/APositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A +"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/OPositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O +" />
+            <RadioButton
+                android:id="@+id/BPositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B +" />
+            <RadioButton
+                android:id="@+id/ABPositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB +" />
+            <RadioButton
+                android:id="@+id/ANegetive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A -" />
+            <RadioButton
+                android:id="@+id/ONegetive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O -" />
+            <RadioButton
+                android:id="@+id/BNegetive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B -" />
+            <RadioButton
+                android:id="@+id/ABNegetive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB -" />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/mobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Donor's Mobile Number"/>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Donor's Email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/SaveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+        <Button
+            android:id="@+id/SearchBlood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SearchBlood" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
